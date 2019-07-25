@@ -1,0 +1,37 @@
+{
+  "name": "my-library-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rubik build --lib",
+    "start": "rubik serve --lib",
+    "lint": "rubik lint"
+  },
+  "keywords": [],
+  "author": "Fancy <fancyboynet@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0",
+    "rubik-cli": "^0.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-merge": "rubik check-package",
+      "post-checkout": "rubik check-package"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,vue}": [
+      "rubik lint",
+      "git add"
+    ]
+  }
+}

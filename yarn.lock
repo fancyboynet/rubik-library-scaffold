@@ -7584,10 +7584,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rubik-cli@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/rubik-cli/-/rubik-cli-0.2.0.tgz#31dc61c5cda535697211ff51473b9b0be7a6834b"
-  integrity sha512-tpeokgBug7ZQyd+bbF+7bZHL5VSejB4J+hhveml6ENfZu1pDr4eoxTSyMt9TdWTyTfBrs8BhSf3w5LpoA8V48w==
+rubik-cli@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/rubik-cli/-/rubik-cli-0.3.0.tgz#9060d10cea3e3071077c48bd0d8545e3331070f8"
+  integrity sha512-bN9UT709yPcUtQeIhjzzAwLTNEdWmwOSRJv3aBKDydmLD8dV2HddCJd4JCgsWCoWAq/9jmlH295jFTM7OXUTsA==
   dependencies:
     "@babel/core" "^7.5.5"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.5"
@@ -7632,6 +7632,7 @@ rubik-cli@^0.2.0:
     optimize-css-assets-webpack-plugin "^5.0.1"
     postcss-loader "^3.0.0"
     sass-loader "^7.1.0"
+    semver "^6.3.0"
     shelljs "^0.8.2"
     style-loader "^0.23.1"
     svg-inline-loader "^0.8.0"
@@ -7778,7 +7779,7 @@ semver-compare@^1.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha512-Ya52jSX2u7QKghxeoFGpLwCtGlt7j0oY9DYb5apt9nPlJ42ID+ulTXESnt/qAQcoSERyZ5sl3LDIOw0nAn/5DA==
 
-semver@^6.0.0, semver@^6.1.0, semver@^6.1.1, semver@^6.1.2:
+semver@^6.0.0, semver@^6.1.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==

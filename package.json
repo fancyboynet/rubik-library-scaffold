@@ -4,6 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "module": "src/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rubik build --lib",
     "start": "rubik serve --lib",

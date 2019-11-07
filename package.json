@@ -10,7 +10,8 @@
   "scripts": {
     "build": "rubik build --lib",
     "start": "rubik serve --lib",
-    "lint": "rubik lint"
+    "lint": "rubik lint",
+    "stylelint": "rubik stylelint --fix"
   },
   "keywords": [],
   "author": "Fancy <fancyboynet@gmail.com>",
@@ -35,6 +36,7 @@
   "lint-staged": {
     "src/**/*.{js,jsx,vue}": [
       "rubik lint",
+      "rubik stylelint --fix",
       "git add"
     ]
   }
